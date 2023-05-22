@@ -4,9 +4,11 @@ function cart() {
     if (x.style.display === "block") {
       x.style.display = "none";
       y.style.display = "block";
+      document.getElementById("open").innerHTML = "Go to shop";
     } else {
       x.style.display = "block";
       y.style.display = "none";
+      document.getElementById("open").innerHTML = "Go to cart";
     }
   }
 
